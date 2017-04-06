@@ -37,6 +37,7 @@ public class Zajecia3 {
         System.out.println("Podaj wzrost(m): ");
         double height = scanner.nextDouble();
         bmi(weight, height);
+        System.out.println("Zrobilem zadanie domowe");
     }
 
     public static void bmi(int weight, double heightInMeters) {
